@@ -1,0 +1,117 @@
+
+
+/* body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(102, 131, 249);
+} */
+
+.Todo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(163, 172, 172, 0.436);
+  
+
+  .wrapper {
+    width: 650px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    flex-grow: 1;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  h5 {
+    margin: 20px;
+  }
+
+  .btns{
+    display: flex;
+    justify-content:space-around;
+  }
+
+  input[type="checkbox"] {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+  }
+
+  input[type="checkbox"]:checked {
+    background: rgb(56, 250, 230); /* not working for now */
+  }
+
+  button.delete {
+    font-size:1.5rem;
+    transition: all 0.3s;
+  }
+  button.delete:hover {
+    transform: scale(1.1);
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+  
+
+}
+
+
+
+
+
+/* **
+.testbtn {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color: #000000;
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.testbtn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 10px;
+  width: 0;
+  color: #000000;
+  background-color: #0086fb;
+  transition: 0.5s ease;
+}
+
+.testbtn:hover {
+  color: #000000;
+  transition-delay: 0.5s;
+}
+
+.testbtn:hover::before {
+  width: 100%;
+}
+
+.testbtn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #00c8ff;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+
+.testbtn:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: rgb(47, 126, 195);
+} */

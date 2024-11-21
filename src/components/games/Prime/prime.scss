@@ -1,0 +1,10 @@
+.primeBox{
+    display: flex;
+    flex-direction: column;
+    border:solid black 3px;
+    align-items: center;
+    height: 200px;
+    .out{
+        font-weight:bold;
+    }
+}
